@@ -1,0 +1,64 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+    color: #808080;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+.apnd{
+    padding-left: 10px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.apndText{
+    text-align: center;
+}
+
+.text{
+    width: 80%;
+    float: left;
+    padding: 20px 0;
+    border-right: none;
+    border-left: 0;
+    border-top: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    font-family: 'Press Start 2P', cursive;
+    outline: 0;
+}
+
+.submit{
+    width: 20%;
+    float: right;
+    background: #000;
+    color: #FFB920;
+    padding: 21px 0;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media screen and (max-width: 735px){
+
+    .text{
+        width: 70%;
+    }
+    .submit{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 655px){
+    .text{
+        font-size: 9px;
+    }
+}
